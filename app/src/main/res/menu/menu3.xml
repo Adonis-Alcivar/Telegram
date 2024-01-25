@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_nuevo_grupo"
+            android:icon="@drawable/ic_nuevo_grupo"
+            android:title="Nuevo grupo" />
+        <item
+            android:id="@+id/menu_nuevo_chat"
+            android:icon="@drawable/ic_nuevo_chat"
+            android:title="Nuevo chat secreto" />
+        <item
+            android:id="@+id/menu_nuevo_canal"
+            android:icon="@drawable/ic_nuevo_canal"
+            android:title="Nuevo canal" />
+        <item
+            android:id="@+id/menu_contactos"
+            android:icon="@drawable/ic_contactos"
+            android:title="Contactos" />
+        <item
+            android:id="@+id/menu_llamadas"
+            android:icon="@drawable/ic_llamadas"
+            android:title="Llamadas" />
+        <item
+            android:id="@+id/menu_guardados"
+            android:icon="@drawable/ic_guardados"
+            android:title="Mensajes guardados" />
+        <item
+            android:id="@+id/menu_ajustes"
+            android:icon="@drawable/ic_ajustes"
+            android:title="Ajustes" />
+    </group>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/menu_invitar"
+                android:icon="@drawable/ic_invitar"
+                android:title="Invitar amigos" />
+            <item
+                android:id="@+id/menu_preguntas"
+                android:icon="@drawable/ic_preguntas"
+                android:title="Preguntas frecuentes" />
+        </menu>
+    </item>
+</menu>
+
