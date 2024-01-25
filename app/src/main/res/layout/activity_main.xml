@@ -28,12 +28,11 @@
         android:layout_height="match_parent" >
 
             <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/muestra" />
-
-    </FrameLayout>
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/muestra" />
+        </FrameLayout>
     </LinearLayout>
    <com.google.android.material.navigation.NavigationView
        android:id="@+id/nav_view"
